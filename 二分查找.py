@@ -46,7 +46,7 @@ def binary_search_2(data, num):
     right = len(data)
     k = 1
 
-    while left < right:
+    while left <= right:
         mid = (left + right) // 2
         print("第%i次二分查找" % k, left, right, mid)
 
